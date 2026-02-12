@@ -1,0 +1,35 @@
+C++ code for first N natural Numbers without loop:::::::
+
+// Online C++ Compiler - Build, Compile and Run your C++ programs online in your favorite browser
+#include<iostream>
+using namespace std;
+int main()
+{
+   int n,sum;
+   cin>>n;
+   sum=(n*(n+1))/2;
+   cout<<sum;  
+    return 0;
+}
+
+C++ code for first N natural Numbers with loop::
+
+// Online C++ Compiler - Build, Compile and Run your C++ programs online in your favorite browser
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+   int n,sum=0;
+   cin>>n;
+  for(int i=1;i<=n;i++)
+ { sum+=i;}
+ 
+  cout<<sum;
+  
+    return 0;
+}
+
+
